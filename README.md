@@ -1,6 +1,9 @@
 # DT78 
 DT78 Smartwatch Reverse Engineering
 
+## Arduino ESP32
+
+The [`arduino code`](https://github.com/fbiego/dt78/blob/master/dt78_ble_client/dt78_ble_client.ino) creates a client on the ESP32 board that connects to the smartwatch
 
 ## Android App
 
