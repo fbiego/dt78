@@ -35,11 +35,11 @@ static void notifyCallback(
     }
     Serial.println();
 
-    if (dat[0] == 171 && dat[1] == 0 && dat[2] == 4 && dat[3] == 255 && dat[4] == 128){
-      if (dat[5] == 1){
+    if (pData[0] == 171 && pData[1] == 0 && pData[2] == 4 && pData[3] == 255 && pData[4] == 128){
+      if (pData[5] == 1){
         digitalWrite(RELAY, LOW);
       }
-      if (dat[5] == 0){
+      if (pData[5] == 0){
         digitalWrite(RELAY, HIGH);
       }
     }
