@@ -1,5 +1,6 @@
 
 TX indicates message to watch
+
 RX indicates message from watch
 
 ## find watch
