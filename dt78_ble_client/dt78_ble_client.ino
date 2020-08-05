@@ -35,12 +35,14 @@ static void notifyCallback(
     }
     Serial.println();
 
-    if (pData[0] == 171 && pData[1] == 0 && pData[2] == 4 && pData[3] == 255 && pData[4] == 128){
-      if (pData[5] == 1){
+    if (pData[0] == 171 && pData[1] == 0 && pData[2] == 4 && pData[3] == 255 && pData[4] == 153 && pData[5] == 128){
+      if (pData[6] == 1){
         digitalWrite(RELAY, LOW);
+        Serial.println("Lights ON");
       }
-      if (pData[5] == 0){
+      if (pData[6] == 0){
         digitalWrite(RELAY, HIGH);
+        Serial.println("Lights OFF");
       }
     }
 }
@@ -133,6 +135,7 @@ void setup() {
 
   pinMode(BUILTINLED, OUTPUT);
   pinMode(RELAY, OUTPUT);
+  digitalWrite(RELAY, HIGH);
 
   // Retrieve a Scanner and set the callback we want to use to be informed when we
   // have detected a new device.  Specify that we want active scanning and start the
