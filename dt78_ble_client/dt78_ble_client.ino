@@ -1,14 +1,12 @@
 /**
  * A BLE client example that is rich in capabilities.
  * There is a lot new capabilities implemented.
- * author unknown
- * updated by chegewara
  */
 
 #include "BLEDevice.h"
-//#include "BLEScan.h"
 
 #define BUILTINLED  2   // show connection status on builtin blue led
+#define RELAY       4
 
 // The remote service we wish to connect to.
 static BLEUUID connectUUID("0000fee7-0000-1000-8000-00805f9b34fb");
@@ -36,6 +34,15 @@ static void notifyCallback(
       Serial.printf("%02X ", pData[i]);
     }
     Serial.println();
+
+    if (dat[0] == 171 && dat[1] == 0 && dat[2] == 4 && dat[3] == 255 && dat[4] == 128){
+      if (dat[5] == 1){
+        digitalWrite(RELAY, LOW);
+      }
+      if (dat[5] == 0){
+        digitalWrite(RELAY, HIGH);
+      }
+    }
 }
 
 class MyClientCallback : public BLEClientCallbacks {
@@ -124,6 +131,9 @@ void setup() {
   Serial.println("Starting Arduino BLE Client application...");
   BLEDevice::init("");
 
+  pinMode(BUILTINLED, OUTPUT);
+  pinMode(RELAY, OUTPUT);
+
   // Retrieve a Scanner and set the callback we want to use to be informed when we
   // have detected a new device.  Specify that we want active scanning and start the
   // scan to run for 5 seconds.
@@ -139,7 +149,7 @@ void setup() {
 // This is the Arduino main loop function.
 void loop() {
 
-  pinMode(BUILTINLED, OUTPUT);
+  
   // If the flag "doConnect" is true then we have scanned for and found the desired
   // BLE Server with which we wish to connect.  Now we connect to it.  Once we are 
   // connected we set the connected flag to be true.
