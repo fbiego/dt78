@@ -1,6 +1,6 @@
 /**
- * A BLE client example that is rich in capabilities.
- * There is a lot new capabilities implemented.
+ * This sketch creates a BLE client on the ESP32 board that connects to the DT78 watch
+ * 
  */
 
 #include "BLEDevice.h"
@@ -11,7 +11,6 @@
 // The remote service we wish to connect to.
 static BLEUUID connectUUID("0000fee7-0000-1000-8000-00805f9b34fb");
 static BLEUUID serviceUUID("6e400001-b5a3-f393-e0a9-e50e24dcca9e");
-// The characteristic of the remote service we are interested in.
 static BLEUUID    charUUID("6e400003-b5a3-f393-e0a9-e50e24dcca9e");
 
 static boolean doConnect = false;
