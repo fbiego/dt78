@@ -53,8 +53,8 @@ class MyCallbacks: public BLECharacteristicCallbacks {
 };
 
 void initBLE(){
-  BBUILTINLEDevice::init("Esp32 Watch");
-  BLEServer *pServer = BBUILTINLEDevice::createServer();
+  BLEDevice::init("Esp32 Watch");
+  BLEServer *pServer = BLEDevice::createServer();
   pServer->setCallbacks(new MyServerCallbacks());
   
   BLEService *pService = pServer->createService(SERVICE_UUID);
@@ -73,12 +73,12 @@ void initBLE(){
 
   pService->start();
   // BLEAdvertising *pAdvertising = pServer->getAdvertising();  // this still is working for backward compatibility
-  BLEAdvertising *pAdvertising = BBUILTINLEDevice::getAdvertising();
+  BLEAdvertising *pAdvertising = BLEDevice::getAdvertising();
   pAdvertising->addServiceUUID(SERVICE_UUID);
   pAdvertising->setScanResponse(true);
   pAdvertising->setMinPreferred(0x06);  // functions that help with iPhone connections issue
   pAdvertising->setMinPreferred(0x12);
-  BBUILTINLEDevice::startAdvertising();
+  BLEDevice::startAdvertising();
   Serial.println("Characteristic defined! Now you can read it in your phone!");
 }
 
