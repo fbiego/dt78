@@ -30,4 +30,4 @@ Note: I may not update the android code on this repository [`DT78-Alerts-Android
 * Notifications upto 120 characters to the watch
 * Call & SMS listener (requires Contacts, Phone & SMS permission)
 * Watch battery percentage on the ongoing notification (priority PRIORITY_MIN, IMPORTANCE_MIN)
-* Find phone feature sends Phone battery percentage as notification to the watch (Phone doesn't ring currently)
+* Find phone feature rings and locks phone then sends Phone battery percentage as notification to the watch (requires Device Admin permission)
