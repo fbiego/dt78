@@ -19,11 +19,15 @@ This arduino code [`dt78_ble_server`](https://github.com/fbiego/dt78/blob/master
 
 ## Android App
 
-Since this watch only supports notification from a few apps in the WearFit 2.0 app, I modified this code [`DT78-Alerts-Android`](https://github.com/fbiego/DT78-Alerts-Android)forked from [`mitchwongho/ESP-Alerts-for-Android`](https://github.com/mitchwongho/ESP-Alerts-for-Android) to send notifications to the watch
+Since this watch only supports notification from a few apps in the WearFit 2.0 app, I modified this code [`DT78-App-Android`](https://github.com/fbiego/DT78-App-Android)forked from [`mitchwongho/ESP-Alerts-for-Android`](https://github.com/mitchwongho/ESP-Alerts-for-Android) to send notifications to the watch
 
 ### Current status
 
-Note: I may not update the android code on this repository [`DT78-Alerts-Android`](https://github.com/fbiego/DT78-Alerts-Android) so it should server as a starting point for anyone interested in building the app
+Note: I may not update the android code on this repository [`DT78-App-Android`](https://github.com/fbiego/DT78-App-Android) so it should server as a starting point for anyone interested in building the app
+
+#### Notification test video
+
+[`Youtube`](https://youtu.be/2429i_2OC2A)
 
 #### Implemented
 
