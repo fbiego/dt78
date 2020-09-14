@@ -21,17 +21,3 @@ This arduino code [`dt78_ble_server`](https://github.com/fbiego/dt78/blob/master
 
 Since this watch only supports notification from a few apps in the WearFit 2.0 app, I modified this code [`DT78-App-Android`](https://github.com/fbiego/DT78-App-Android)forked from [`mitchwongho/ESP-Alerts-for-Android`](https://github.com/mitchwongho/ESP-Alerts-for-Android) to send notifications to the watch
 
-### Current status
-
-Note: I may not update the android code on this repository [`DT78-App-Android`](https://github.com/fbiego/DT78-App-Android) so it should server as a starting point for anyone interested in building the app
-
-#### Notification test video
-
-[`Youtube`](https://youtu.be/2429i_2OC2A)
-
-#### Implemented
-
-* Notifications upto 120 characters to the watch
-* Call & SMS listener (requires Contacts, Phone & SMS permission)
-* Watch battery percentage on the ongoing notification (priority PRIORITY_MIN, IMPORTANCE_MIN)
-* Find phone feature rings and locks phone then sends Phone battery percentage as notification to the watch (requires Device Admin permission)
