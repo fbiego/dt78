@@ -161,3 +161,8 @@ TX  AB 00 08 FF 73 80 00 01 07 00 43	//enable custom days 7:00  (null,Sun,Sat,Fr
 ```
 TX  AB 00 09 FF 75 80 01 0D 00 17 00 2D		//enable 13:00 to 23:00 0x2D -> interval 45mins
 ```
+
+# OTA mode
+```
+TX  AB 00 04 FF 25 80 01		// caution. no exit. the watch will stay in this mode until the battery is low
+```
