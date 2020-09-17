@@ -1,5 +1,5 @@
 
-All commands to and from the watch follow a specific format
+All commands to and from the watch follow a specific format, see [`COMMANDS.md`](https://github.com/fbiego/dt78/blob/master/DT78_COMMANDS.md)
 
 `AB 00 xx FF yy ...`
 
