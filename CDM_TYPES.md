@@ -3,9 +3,9 @@ All commands to and from the watch follow a specific format
 
 `AB 00 xx FF yy ...`
 
-xx is the packet length starting after FF
+`xx` is the packet length starting after `FF`
 
-yy is the command type as shown below
+`yy` is the command type as shown below
 
 ```
 23	reset watch
@@ -40,4 +40,5 @@ yy is the command type as shown below
 A1	disconnect from app
 A5	
 A6	
+FF	
 ```
