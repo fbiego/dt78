@@ -9,6 +9,7 @@ yy is the command type as shown below
 
 ```
 23	reset watch
+25	OTA update mode
 28	firmware info
 31	heart rate, blood pressure & oxygen
 51	steps data
