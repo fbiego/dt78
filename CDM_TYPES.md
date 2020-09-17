@@ -37,7 +37,7 @@ yy is the command type as shown below
 96	
 99	music control
 9C
-A1
+A1	disconnect from app
 A5	
 A6	
 ```
