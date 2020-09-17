@@ -8,6 +8,7 @@ xx is the packet length starting after FF
 yy is the command type as shown below
 
 ```
+23  reset watch
 28	firmware info
 31	heart rate, blood pressure & oxygen
 51	steps data
