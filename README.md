@@ -1,7 +1,7 @@
 # DT78 
 DT78 Smartwatch Reverse Engineering
 
-By using Wireshark, nRF Connect app & an ESP32 board, I was able to decode the following [`commands`](https://github.com/fbiego/dt78/blob/master/DT78_COMMANDS.md)
+By using Wireshark, nRF Connect app & an ESP32 board, I was able to decode the following [`commands`](https://github.com/fbiego/dt78/blob/master/DT78_COMMANDS.md), [`types`](https://github.com/fbiego/dt78/blob/master/CDM_TYPES.md)
 
 More info at this [`blog`](http://www.biego.tech/dt78)
 
