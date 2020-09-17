@@ -7,6 +7,10 @@ RX indicates message from watch
 ```
 TX	AB 00 03 FF 71 80
 ```
+# reset watch
+```
+TX  AB 00 04 FF 23 80 00
+```
 
 # shake camera
 ```
