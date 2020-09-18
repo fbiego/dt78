@@ -1,0 +1,3 @@
+OTA firmware update
+Instructions in chinese
+Using HTS Toolbox on iOS
