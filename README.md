@@ -5,6 +5,11 @@ By using Wireshark, nRF Connect app & an ESP32 board, I was able to decode the f
 
 More info at this [`blog`](http://www.biego.tech/dt78)
 
+#### Notification test video
+
+Custom app for relaying notifications 
+[`Youtube`](https://youtu.be/2429i_2OC2A)
+
 ## ESP32
 
 ### Client
