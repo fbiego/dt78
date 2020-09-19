@@ -2,7 +2,8 @@
 DT78 Smartwatch Reverse Engineering
 
 ## Firmware
-[`analysis.md`](https://github.com/fbiego/dt78/blob/master/firmware/analysis.md)
+Analysis of the firmware using `binwalk` [`analysis.md`](https://github.com/fbiego/dt78/blob/master/firmware/analysis.md)
+
 Firmware v8.04 and update procedure for iOS in chinese language [`here`](https://github.com/fbiego/dt78/tree/master/firmware/ios_ota_chinese)
 
 By using Wireshark, nRF Connect app & an ESP32 board, I was able to decode the following [`commands`](https://github.com/fbiego/dt78/blob/master/DT78_COMMANDS.md), [`types`](https://github.com/fbiego/dt78/blob/master/CMD_TYPES.md)
