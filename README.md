@@ -2,7 +2,7 @@
 DT78 Smartwatch Reverse Engineering
 
 ## Firmware
-Analysis of the firmware using `binwalk` [`analysis.md`](https://github.com/fbiego/dt78/blob/master/firmware/analysis.md)
+Analysis of the firmware using `binwalk` [`analysis`](https://github.com/fbiego/dt78/blob/master/firmware/analysis.md)
 
 Firmware v8.04 and update procedure for iOS in chinese language [`here`](https://github.com/fbiego/dt78/tree/master/firmware/ios_ota_chinese)
 
