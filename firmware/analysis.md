@@ -1,11 +1,11 @@
 
-### `binwalk`
+### `binwalk firmware.bin`
 ```
 DECIMAL       HEXADECIMAL     DESCRIPTION
 --------------------------------------------------------------------------------
 ```
 
-### `binwalk -E`
+### `binwalk -E firmware.bin`
 ```
 DECIMAL       HEXADECIMAL     ENTROPY
 --------------------------------------------------------------------------------
@@ -15,14 +15,28 @@ DECIMAL       HEXADECIMAL     ENTROPY
 
 ![Front](entropy.png?raw=true "Entropy")
 
-### `binwalk -Y`
+### `binwalk -Y firmware.bin`
 ```
 DECIMAL       HEXADECIMAL     DESCRIPTION
 --------------------------------------------------------------------------------
 174           0xAE            ARM executable code, 16-bit (Thumb), little endian, at least 1827 valid instructions
 ```
 
-### `strings -tx`
+### `strings -10 firmware.bin|head`
+```
+..\..\..\User_Application\main.c
+!F 9""QC	"
+!F 90"QC{"
+%02X:%02X:%02X:%02X:%02X:%02X
+/1knpprrtvxxz||~
+//3///;;????;;?;;?;3G3;;/3/3///?QUQYY]aeiquuyy}
+/33;C;3////LPPPPTTPPTTP/LPT\TTPPTT\TT\\TTTTTPLLPLPTTT`\\\\\\\\\\\\\\\PPPPPPPT\`dhlptx
+!AAA#5%'AAA+)137-/
+m_HRF = %d.
+flashstate is %d.
+```
+
+### `strings -tx firmware.bin`
 ```
    11b4 ..\..\..\User_Application\main.c
    16a8 %02X:%02X:%02X:%02X:%02X:%02X
