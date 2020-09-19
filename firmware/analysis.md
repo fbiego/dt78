@@ -13,6 +13,8 @@ DECIMAL       HEXADECIMAL     ENTROPY
 71680         0x11800         Falling entropy edge (0.830587)
 ```
 
+![Front](entropy.png?raw=true "Entropy")
+
 ### `binwalk -Y`
 ```
 DECIMAL       HEXADECIMAL     DESCRIPTION
