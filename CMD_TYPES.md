@@ -3,7 +3,7 @@ All commands to and from the watch follow a specific format, see [`DT78_COMMANDS
 
 `AB 00 xx FF yy ...`
 
-`xx` is the packet length starting after `FF`
+`xx` is the packet length starting with `FF`
 
 `yy` is the command type as shown below
 
