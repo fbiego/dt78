@@ -10,6 +10,10 @@ By using Wireshark, nRF Connect app & an ESP32 board, I was able to decode the f
 
 More info at this [`blog`](http://www.biego.tech/dt78)
 
+#### Telegram
+
+Join the telegram group [`DT78 Smartwatch`](https://t.me/dt78app)
+
 #### Notification test video
 
 Custom app for relaying notifications 
