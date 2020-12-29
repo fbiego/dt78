@@ -10,6 +10,8 @@ By using Wireshark, nRF Connect app & an ESP32 board, I was able to decode the f
 
 More info at this [`blog`](http://www.biego.tech/dt78)
 
+Flash chip used in the watch - [`XT25F128B`](https://github.com/fbiego/dt78/blob/master/XTX-XT25F128BSSIGT.pdf)
+
 #### Telegram
 
 Join the telegram group [`DT78 Smartwatch`](https://t.me/dt78app)
