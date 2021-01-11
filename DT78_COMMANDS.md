@@ -151,7 +151,7 @@ TX  AB 00 08 FF 76 80 00 16 00 07 00	//disable
 # alarm
 ```
 //max 8 alarms
-TX  AB 00 08 FF 73 80 00 01 07 00 80	//enable one time 7:00
+TX  AB 00 08 FF 73 80 00 01 07 00 80	//enable one time 7:00, byte[7](before 07) indicates state; 00 -> OFF, 01 -> ON
 TX  AB 00 08 FF 73 80 00 01 07 00 7F	//enable everyday 7:00
 TX  AB 00 08 FF 73 80 00 01 07 00 1F	//enable mon to fri 7:00
 TX  AB 00 08 FF 73 80 00 01 07 00 43	//enable custom days 7:00  (null,Sun,Sat,Fri,Thu,Wed,Tue,Mon)‭[01000011]‬
