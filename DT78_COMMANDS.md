@@ -68,8 +68,13 @@ TX	AB 00 04 FF 7D 80 00		//cancel
 
 # watch battery level
 ```
-TX	AB 00 04 FF 91 80 01		//request
-RX	AB 00 05 FF 91 80 00 50		//value 0x50 -> 80%
+TX	AB 00 04 FF 91 80 01		  // request
+RX	AB 00 05 FF 91 80 01 50		// 01 charging; value 0x50 -> 80%
+```
+or
+```
+TX	AB 00 04 FF 91 80 01		  // request
+RX	AB 00 05 FF 91 80 00 50		// 00 notcharging; value 0x50 -> 80%
 ```
 
 # raise to wake
