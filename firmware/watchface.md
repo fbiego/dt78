@@ -17,3 +17,7 @@ Using [`rawpixels.net`](http://rawpixels.net/), watchafces can be visualized on 
 settings used is `240` x `240`, `RGB8` format
 
 It is not clear which format is used as RGB8 gives a discolored output
+
+![1](watchface.jpeg?raw=true "3")
+
+I modified half of the bytes to 0xFF (which is white in RGB8) but this gives a bluish color
