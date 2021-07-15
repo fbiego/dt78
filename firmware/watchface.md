@@ -11,7 +11,7 @@ Using [`rawpixels.net`](http://rawpixels.net/), watchafces can be visualized on 
 >- 4972934
 >- 5851767
 >- 5974157
->- 6608473
+>- 6608472
 >- 7541023
 
 settings used is `240` x `240`, `RGB8` format
