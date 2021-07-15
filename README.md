@@ -12,13 +12,13 @@ More info at this [`blog`](http://www.biego.tech/dt78)
 
 Flash chip used in the watch - [`XT25F128B`](https://github.com/fbiego/dt78/blob/master/XTX-XT25F128BSSIGT.pdf)
 
-[`Watch faces`](https://github.com/fbiego/dt78/blob/master/firmware/watchface.md)
+## [`Watch faces`](https://github.com/fbiego/dt78/blob/master/firmware/watchface.md)
 
-#### Telegram
+### Telegram
 
 Join the telegram group [`DT78 Smartwatch`](https://t.me/dt78app)
 
-#### Notification test video
+### Notification test video
 
 Custom app for relaying notifications 
 [`Youtube`](https://youtu.be/2429i_2OC2A)
