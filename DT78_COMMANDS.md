@@ -60,6 +60,13 @@ TX	AB 00 04 FF 31 12 00		//cancel
 RX	AB 00 05 FF 31 12 62 30		//value 0x62 -> 98%
 ```
 
+# all health data
+```
+TX	AB 00 04 FF 32 80 01		//activate
+TX	AB 00 04 FF 32 80 00		//cancel
+RX	AB 00 07 FF 32 80 44 61 72 4B	//heart rate, blood pressure, blood oxygen 
+```
+
 # find phone
 ```
 TX	AB 00 04 FF 7D 80 01		//activate
