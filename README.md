@@ -6,7 +6,9 @@ Analysis of the firmware using `binwalk` [`analysis`](https://github.com/fbiego/
 
 Firmware v8.05 and update procedure for iOS in chinese language [`here`](https://github.com/fbiego/dt78/tree/master/firmware/ios_ota_chinese)
 
-By using Wireshark, nRF Connect app & an ESP32 board, I was able to decode the following [`commands`](https://github.com/fbiego/dt78/blob/master/DT78_COMMANDS.md), [`types`](https://github.com/fbiego/dt78/blob/master/CMD_TYPES.md)
+[`commands`](https://github.com/fbiego/dt78/blob/master/DT78_COMMANDS.md)
+
+[`types`](https://github.com/fbiego/dt78/blob/master/CMD_TYPES.md)
 
 More info at this [`blog`](http://www.biego.tech/dt78)
 
