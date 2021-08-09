@@ -26,9 +26,9 @@ More info at this [`blog`](http://www.biego.tech/dt78)
 | 6 | GND |
 
 ## Datasheets
-Main IC - [`HS6620D`]
+Main IC - [`HS6620D`](https://github.com/fbiego/dt78/blob/master/datasheets/HS6620D_data_sheet_V3.0.pdf)
 Flash Chip - [`XT25F128B`](https://github.com/fbiego/dt78/blob/master/datasheets/XTX-XT25F128BSSIGT.pdf)
-Touch IC - [`CTS816S`]
+Touch IC - [`CST816S`](https://github.com/fbiego/dt78/blob/master/datasheets/CST816S.pdf)
 
 ## ESP32
 
