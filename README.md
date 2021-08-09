@@ -14,14 +14,18 @@ Flash chip used in the watch - [`XT25F128B`](https://github.com/fbiego/dt78/blob
 
 ## [`Watch faces`](https://github.com/fbiego/dt78/blob/master/firmware/watchface.md)
 
-### Telegram
+## Hardware
 
-Join the telegram group [`DT78 Smartwatch`](https://t.me/dt78app)
+### Touch Pinout
 
-### Notification test video
-
-Custom app for relaying notifications 
-[`Youtube`](https://youtu.be/2429i_2OC2A)
+| FPC Pin | Pad |
+| --- | --- |
+| 1 | TSCL |
+| 2 | TSDA |
+| 3 | TINT |
+| 4 | TRST |
+| 5 | VCC |
+| 6 | GND |
 
 ## ESP32
 
