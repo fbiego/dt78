@@ -10,8 +10,6 @@ By using Wireshark, nRF Connect app & an ESP32 board, I was able to decode the f
 
 More info at this [`blog`](http://www.biego.tech/dt78)
 
-Flash chip used in the watch - [`XT25F128B`](https://github.com/fbiego/dt78/blob/master/XTX-XT25F128BSSIGT.pdf)
-
 ## [`Watch faces`](https://github.com/fbiego/dt78/blob/master/firmware/watchface.md)
 
 ## Hardware
@@ -26,6 +24,11 @@ Flash chip used in the watch - [`XT25F128B`](https://github.com/fbiego/dt78/blob
 | 4 | TRST |
 | 5 | VCC |
 | 6 | GND |
+
+## Datasheets
+Main IC - [`HS6620D`]
+Flash Chip - [`XT25F128B`](https://github.com/fbiego/dt78/blob/master/datasheets/XTX-XT25F128BSSIGT.pdf)
+Touch IC - [`CTS816S`]
 
 ## ESP32
 
