@@ -34,6 +34,8 @@ Flash Chip - [`XT25F128B`](https://github.com/fbiego/dt78/blob/master/datasheets
 
 Touch IC - [`CST816S`](https://github.com/fbiego/dt78/blob/master/datasheets/CST816S.pdf)
 
+TFT LCD - [`GC9A01A`](https://github.com/fbiego/dt78/blob/master/datasheets/GC9A01A.pdf)
+
 ## ESP32
 
 ### Client
