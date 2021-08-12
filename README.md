@@ -18,7 +18,7 @@ More info at this [`blog`](http://www.biego.tech/dt78)
 
 ### Touch Pinout
 
-| FPC Pin | Pad |
+| FPC | Pin |
 | --- | --- |
 | 1 | TSCL |
 | 2 | TSDA |
@@ -26,6 +26,26 @@ More info at this [`blog`](http://www.biego.tech/dt78)
 | 4 | TRST |
 | 5 | VCC |
 | 6 | GND |
+
+### TFT LCD Pinout
+
+| FPC | Pin |
+| --- | --- |
+| 1 | LEDK |
+| 2 | SDA |
+| 3 | LEDA |
+| 4 | SCLK |
+| 5 | IOVCC18 |
+| 6 | RESET |
+| 7 | IOVCC18 |
+| 8 | CS |
+| 9 | TE |
+| 10 | GND |
+| 11 | A0|
+| 12 | GND |
+| 13 | VCC28 |
+| 14 | GND |
+| 15 | VCC28 |
 
 ## Datasheets
 Main IC - [`HS6620D`](https://github.com/fbiego/dt78/blob/master/datasheets/HS6620D_data_sheet_V3.0.pdf)
