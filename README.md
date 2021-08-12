@@ -2,6 +2,7 @@
 DT78 Smartwatch Reverse Engineering
 
 ## Firmware
+
 Analysis of the firmware using `binwalk` [`analysis`](https://github.com/fbiego/dt78/blob/master/firmware/analysis.md)
 
 Firmware v8.05 and update procedure for iOS in chinese language [`here`](https://github.com/fbiego/dt78/tree/master/firmware/ios_ota_chinese)
@@ -12,7 +13,10 @@ Firmware v8.05 and update procedure for iOS in chinese language [`here`](https:/
 
 More info at this [`blog`](http://www.biego.tech/dt78)
 
-## [`Watch faces`](https://github.com/fbiego/dt78/blob/master/firmware/watchface.md)
+### [`Watch faces`](https://github.com/fbiego/dt78/blob/master/firmware/watchface.md)
+
+
+[HS6620 Dumping JTAG](https://github.com/rbaron/HS6620D-smartwatch-reveng)
 
 ## Hardware
 
