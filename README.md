@@ -62,6 +62,10 @@ TFT LCD - [`GC9A01A`](https://github.com/fbiego/dt78/blob/master/datasheets/GC9A
 
 ## ESP32
 
+### LCD Touch Test
+
+This arduino code [`dt78_lcd_touch_jpg`](https://github.com/fbiego/dt78/blob/master/dt78_lcd_touch_jpg/dt78_lcd_touch_jpg.ino) interfaces the LCD and touch screen with an ESP32 board. Images will be displayed from SPIFFS and can be scrolled using the touch screen.
+
 ### Client
 
 This arduino code [`dt78_ble_client`](https://github.com/fbiego/dt78/blob/master/dt78_ble_client/dt78_ble_client.ino) creates a client on the ESP32 board that connects to the smartwatch
