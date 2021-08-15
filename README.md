@@ -23,7 +23,7 @@ More info at this [`blog`](http://www.biego.tech/dt78)
 
 ## Hardware
 
-[`FPC Connectors pinout`](https://github.com/fbiego/dt78/blob/master/HARDWARE.md)
+- [`FPC Connectors pinout`](https://github.com/fbiego/dt78/blob/master/HARDWARE.md)
 
 
 ## Datasheets
