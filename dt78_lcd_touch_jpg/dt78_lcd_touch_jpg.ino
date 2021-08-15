@@ -14,7 +14,7 @@
  *     ESP32: https://github.com/lorol/arduino-esp32fs-plugin
  * 
  * 
- * LCD    <=> ESP32
+ * LCD <=>  ESP32
  * IOVCC    - 3.3V
  * VCC28    - 3.3V
  * GND      - GND
