@@ -7,14 +7,16 @@ Analysis of the firmware using `binwalk` [`analysis`](https://github.com/fbiego/
 
 Firmware v8.05 and update procedure for iOS in chinese language [`here`](https://github.com/fbiego/dt78/tree/master/firmware/ios_ota_chinese)
 
-[`commands`](https://github.com/fbiego/dt78/blob/master/DT78_COMMANDS.md)
+## BLE Protocol
 
-[`types`](https://github.com/fbiego/dt78/blob/master/CMD_TYPES.md)
+- [`commands`](https://github.com/fbiego/dt78/blob/master/DT78_COMMANDS.md)
+
+- [`types`](https://github.com/fbiego/dt78/blob/master/CMD_TYPES.md)
 
 More info at this [`blog`](http://www.biego.tech/dt78)
 
-### [`Watch faces`](https://github.com/fbiego/dt78/blob/master/firmware/watchface.md)
-
+## SPI flash
+- [`Watch faces`](https://github.com/fbiego/dt78/blob/master/firmware/watchface.md)
 
 [HS6620 Dumping JTAG](https://github.com/rbaron/HS6620D-smartwatch-reveng)
 
