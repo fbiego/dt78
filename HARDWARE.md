@@ -32,3 +32,21 @@
 | 13 | VCC28 |
 | 14 | GND |
 | 15 | VCC28 |
+
+### Optical Sensor Pinout
+
+| FPC | Pin |
+| --- | --- |
+| 1 | NC |
+| 2 | VCC |
+| 3 | NC |
+| 4 | VCC |
+| 5 | SDA |
+| 6 | GND |
+| 7 | SCL |
+| 8 | GND |
+| 9 | NC |
+| 10 | NC |
+| 11 | NC |
+| 12 | NC |
+| 13 | NC |
