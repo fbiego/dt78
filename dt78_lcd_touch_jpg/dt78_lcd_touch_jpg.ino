@@ -14,6 +14,27 @@
  *     ESP32: https://github.com/lorol/arduino-esp32fs-plugin
  * 
  * 
+ * LCD    <=> ESP32
+ * IOVCC    - 3.3V
+ * VCC28    - 3.3V
+ * GND      - GND
+ * SDA      - 23
+ * SCLK     - 18
+ * RST      - 4
+ * CS       - 15
+ * A0       - 2   //DC pin
+ * TE       - Not Connected
+ * LEDA     - 3.3V  //backlight +
+ * LEDK     - GND   //backlight - (use an N-channel mosfet to control the backlight with any pin)
+ * 
+ * TOUCH <=> ESP32
+ * VCC    - 3.3V
+ * GND    - GND
+ * TSCL   - 22
+ * TSDA   - 21
+ * TRST   - 5
+ * TINT   - 19
+ * 
  ******************************************************************************/
 #include <Arduino_GFX_Library.h>
 #include <CST816S.h>
