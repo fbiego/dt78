@@ -188,6 +188,7 @@ TX	AB 00 04 FF 7B 80 00	//last byte for language
 
 # steps & hourly measurement data
 ```
+TX	AB 00 09 FF 51 80 00 15 09 0A 0D 00	// request realtime
 RX	AB 00 0E FF 51 08 00 09 7F 00 00 5A 00 00 00 00 00	//realtime steps & calories
 RX	AB 00 16 FF 51 20 15 07 0B 07 00 03 7F 00 00 21 00 00 00 00 00 01 05 06 32 02	//hourly steps, calories & health data
 ```
