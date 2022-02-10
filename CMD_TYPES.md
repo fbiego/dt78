@@ -27,7 +27,7 @@ All commands to and from the watch follow a specific format, see [`DT78_COMMANDS
 7B	
 7C	12 hour system
 7D	find phone
-7E	
+7E	weather data
 7F	sleep time
 85	
 91	battery
