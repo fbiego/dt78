@@ -200,5 +200,16 @@ RX	AB 00 0B FF 52 80 15 07 06 15 05 01 00 3A	//
 
 # weather data
 ```
-RX  AB 00 11 FF 7E 80 00 12 00 15 00 15 10 16 00 15 10 15 10 15 // {00/01 positive/negative} 12 -> 18°C
+RX  AB 00 11 FF 7E 80 XY 12 00 15 00 15 10 16 00 15 10 15 10 15 // {Y -> 0/1 positive/negative} 12 -> 18°C (icon+sign & temperature value)
+// the pattern suggests the set might be the weather prediction for 7 days (1 Week) [<not sure>]
+// with the current watch only the first data is displayed
+// X value determines the weather icon
+// 0 - sun + cloud
+// 1 - sun
+// 2 - snow
+// 3 - rain
+// 4 - clouds
+// 5 - tornado
+// 6 - wind
+// 7 - sun + haze
 ```
