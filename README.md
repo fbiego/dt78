@@ -15,7 +15,7 @@ Firmware v8.05 and update procedure for iOS in chinese language [`here`](https:/
 
 - [`types`](https://github.com/fbiego/dt78/blob/master/CMD_TYPES.md)
 
-More info at this [`blog`](http://www.biego.tech/dt78)
+<!-- More info at this [`blog`](http://www.biego.tech/dt78) -->
 
 ## SPI flash
 
