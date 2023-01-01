@@ -36,6 +36,7 @@ All commands to and from the watch follow a specific format, see [`DT78_COMMANDS
 95	watch face
 96	
 99	music control
+9B  device settings in app
 9C
 A1	disconnect from app
 A5	
