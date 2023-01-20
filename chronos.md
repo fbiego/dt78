@@ -4,7 +4,7 @@
 ### Notifications
 
 These commands are used to test whether the corresponding notification icon is supported on the watch.
-If the watch does not display the notification, that means that is is not supported
+If the watch does not display the notification, that means that it is not supported
 
 
 - `AB0009FF7280010274657374`		//Call
