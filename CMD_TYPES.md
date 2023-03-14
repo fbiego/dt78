@@ -8,12 +8,15 @@ All commands to and from the watch follow a specific format, see [`DT78_COMMANDS
 `yy` is the command type as shown below
 
 ```
+20	connection (watch)
 23	reset watch
 25	OTA update mode
 28	firmware info
 31	heart rate, blood pressure & oxygen
+32	all health data
 51	steps data
 52	sleep data
+53	drink water reminder
 71	find watch
 72	notifications
 73	alarms
@@ -30,16 +33,26 @@ All commands to and from the watch follow a specific format, see [`DT78_COMMANDS
 7E	weather data
 7F	sleep time
 85	
+87	connection response (watch)
+88	
+8A	
+8B	
 91	battery
 92	device type & firmware version
 93	set time
 95	watch face
 96	
 99	music control
-9B  device settings in app
-9C
+9B	device settings in app
+9C	watchface text font & color settings
+9F	
+A0	
 A1	disconnect from app
 A5	
 A6	
+A7	
+A8	QR codes (contact & payment)
+C9	
+E4	
 FF	
 ```
