@@ -132,6 +132,12 @@ TX	AB 00 04 FF 99 80 00	//play pause
 TX	AB 00 04 FF 99 80 01	//previous
 TX	AB 00 04 FF 99 80 02	//next
 ```
+```
+TX  AB 00 04 FF 9D 80 00	//play
+TX  AB 00 04 FF 9D 80 01	//pause
+TX  AB 00 04 FF 9D 80 02	//previous
+TX  AB 00 04 FF 9D 80 02	//next
+```
 
 # set time
 ```

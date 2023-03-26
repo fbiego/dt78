@@ -45,14 +45,18 @@ All commands to and from the watch follow a specific format, see [`DT78_COMMANDS
 99	music control
 9B	device settings in app
 9C	watchface text font & color settings
-9F	
-A0	
+9D	music control +
+9E	reminder setting (type[exercise 0x00, medicine 0x01, book 0x02, trip 0x03], enabled, time, interval)
+9F	overlook reminder (interval)
+A0	enabled reminders (sed 0x01, drink 0x02, overlook 0x08, exercise 0x10, medicine 0x20, book 0x40, trip 0x80)
 A1	disconnect from app
-A5	
+A2	contact name
+A3	contact number
+A5	contact size & sos contact id
 A6	
 A7	
 A8	QR codes (contact & payment)
 C9	
-E4	
+E4	barometer & altitude data
 FF	
 ```

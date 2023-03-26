@@ -9,7 +9,8 @@
 #define RELAY       4
 
 // The remote service we wish to connect to.
-static BLEUUID connectUUID("0000fee7-0000-1000-8000-00805f9b34fb");
+// static BLEUUID connectUUID("0000fee7-0000-1000-8000-00805f9b34fb");
+static BLEUUID connectUUID("7905f431-b5ce-4e99-a40f-4b1e122d00d0");
 static BLEUUID serviceUUID("6e400001-b5a3-f393-e0a9-e50e24dcca9e");
 static BLEUUID    charUUID("6e400003-b5a3-f393-e0a9-e50e24dcca9e");
 
