@@ -10,6 +10,7 @@ If the watch does not display the notification, that means that it is not suppor
 - `AB0009FF7280010274657374`		//Call
 - `AB0005FF72800202`		//cancel call
 - `AB0009FF7280030274657374`		//Message
+- `AB0009FF7280040274657374`		//Mail
 - `AB0009FF7280070274657374`		//QQ
 - `AB0009FF7280080274657374`		//Skype
 - `AB0009FF7280090274657374`		//Wechat
@@ -22,10 +23,11 @@ If the watch does not display the notification, that means that it is not suppor
 - `AB0009FF7280130274657374`		//Weibo
 - `AB0009FF7280140274657374`		//KakaoTalk
 - `AB0009FF7280160274657374`		//Viber
+- `AB0009FF7280170274657374`		//VK
 - `AB0009FF7280180274657374`		//Telegram
 
 You can check for additional icon support by changing the icon value in the brackets as shown below
-- AB0009FF7280[18]0274657374
+- `AB0009FF7280[18]0274657374`
 
 Note that the values is in hex format 19, 1A..1F, 20, 21
 

@@ -34,7 +34,7 @@ All commands to and from the watch follow a specific format, see [`DT78_COMMANDS
 7F	sleep time
 85	
 87	connection response (watch)
-88	
+88	future weather data (high/low)
 8A	
 8B	
 91	battery
