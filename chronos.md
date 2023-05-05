@@ -31,4 +31,4 @@ You can check for additional icon support by changing the icon value in the brac
 
 Note that the values is in hex format 19, 1A..1F, 20, 21
 
-From the commands above notice that some missing values 04..06, 0B..0D. It is necessary to check as some watches may support it
+From the commands above notice that some missing values 05..06, 0B..0D. It is necessary to check as some watches may support it
