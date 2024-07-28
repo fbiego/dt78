@@ -4,6 +4,9 @@ DT78 Smartwatch Reverse Engineering
 + [`DT78 with ESP32 PCB video`](https://youtu.be/O0CNbZo6Kx4)
 + [`DT78 ESP32 firmware`](https://github.com/fbiego/dt78-esp32-firmware)
 
+https://github.com/user-attachments/assets/8dc41542-3ad4-4554-a023-f22332daad98
+
+
 ## Firmware
 
 Analysis of the firmware using `binwalk` [`analysis`](https://github.com/fbiego/dt78/blob/master/firmware/analysis.md)
